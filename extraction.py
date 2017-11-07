@@ -39,7 +39,7 @@ def drop_columns_in_files(df, files):
         #print (dataframe)
         df = df.append(dataframe, ignore_index=True)
     df.to_csv('/home/karthik/Documents/project/data_set/mycommoncsv.csv')
-    #print (df)
+    print (df)
 
 ret = get_files()
 #print (ret)
